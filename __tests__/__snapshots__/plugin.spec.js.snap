@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`plugin Debugger dispose logging 1`] = `
+Array [
+  Array [
+    "%cDISPOSE    %c disposed  %cstream->dispose",
+    "font-weight:bold;color:#f04134;",
+    "font-weight:bold;color:#108ee9;",
+    "text-decoration:underline;font-weight:bold;color:#5a5a5a;",
+  ],
+]
+`;
+
+exports[`plugin Debugger emitter logging 1`] = `
+Array [
+  Array [
+    "%cOPERATOR %c called   %cstream->emitter1",
+    "font-weight:bold;color:#948aec;",
+    "font-weight:bold;color:#108ee9;",
+    "text-decoration:underline;font-weight:bold;color:#5a5a5a;",
+  ],
+  Array [
+    "%cprevState:",
+    "color:#5a5a5a;font-weight:bold;",
+    0,
+  ],
+  Array [
+    "%cnextState:",
+    "color:#ffce3d;font-weight:bold;",
+    1,
+  ],
+]
+`;
+
+exports[`plugin Debugger emitter logging 2`] = `
+Array [
+  Array [
+    "%cSTATE    %c updated  %cstream->emitter1",
+    "font-weight:bold;color:#3dbd7d;",
+    "font-weight:bold;color:#108ee9;",
+    "text-decoration:underline;font-weight:bold;color:#5a5a5a;",
+  ],
+]
+`;
+
+exports[`plugin Debugger operator does not exist 1`] = `
+Array [
+  Array [
+    "Operator does not exist: stream.operator",
+  ],
+]
+`;
+
+exports[`plugin Debugger operator logging 1`] = `
+Array [
+  Array [
+    "%cOPERATOR %c called   %cstream->operator1",
+    "font-weight:bold;color:#948aec;",
+    "font-weight:bold;color:#108ee9;",
+    "text-decoration:underline;font-weight:bold;color:#5a5a5a;",
+  ],
+]
+`;
+
+exports[`plugin Debugger operator redefine 1`] = `
+Array [
+  Array [
+    "Operator redefined: stream.operator",
+  ],
+]
+`;
+
+exports[`plugin Debugger stop logging 1`] = `
+Array [
+  Array [
+    "%cprevState:",
+    "color:#5a5a5a;font-weight:bold;",
+    0,
+  ],
+  Array [
+    "%cnextState:",
+    "color:#ffce3d;font-weight:bold;",
+    1,
+  ],
+]
+`;
+
+exports[`plugin Debugger stop logging 2`] = `
+Array [
+  Array [
+    "%cSTATE    %c updated  %cstream->emitter1",
+    "font-weight:bold;color:#3dbd7d;",
+    "font-weight:bold;color:#108ee9;",
+    "text-decoration:underline;font-weight:bold;color:#5a5a5a;",
+  ],
+]
+`;
+
+exports[`plugin Debugger work with Immutable 1`] = `
+Array [
+  Array [
+    "%cprevState:",
+    "color:#5a5a5a;font-weight:bold;",
+    Object {
+      "state": 0,
+    },
+  ],
+  Array [
+    "%cnextState:",
+    "color:#ffce3d;font-weight:bold;",
+    Object {
+      "state": 0,
+    },
+  ],
+]
+`;
+
+exports[`plugin options start loggin on all streams 1`] = `
+Array [
+  Array [
+    "%cprevState:",
+    "color:#5a5a5a;font-weight:bold;",
+    0,
+  ],
+  Array [
+    "%cnextState:",
+    "color:#ffce3d;font-weight:bold;",
+    1,
+  ],
+]
+`;
+
+exports[`plugin options start loggin on all streams 2`] = `
+Array [
+  Array [
+    "%cSTATE    %c updated  %cstream->emitter1",
+    "font-weight:bold;color:#3dbd7d;",
+    "font-weight:bold;color:#108ee9;",
+    "text-decoration:underline;font-weight:bold;color:#5a5a5a;",
+  ],
+]
+`;
+
+exports[`plugin options start logging on part streams 1`] = `
+Array [
+  Array [
+    "%cprevState:",
+    "color:#5a5a5a;font-weight:bold;",
+    0,
+  ],
+  Array [
+    "%cnextState:",
+    "color:#ffce3d;font-weight:bold;",
+    1,
+  ],
+]
+`;
+
+exports[`plugin options start logging on part streams 2`] = `
+Array [
+  Array [
+    "%cSTATE    %c updated  %ctest1->emitter1",
+    "font-weight:bold;color:#3dbd7d;",
+    "font-weight:bold;color:#108ee9;",
+    "text-decoration:underline;font-weight:bold;color:#5a5a5a;",
+  ],
+]
+`;
