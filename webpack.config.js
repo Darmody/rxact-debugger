@@ -37,7 +37,7 @@ const config = {
     }],
   },
   output: {
-    library: 'rxcat',
+    library: 'rxcat-debugger',
     libraryTarget: 'umd',
   },
   plugins: [
